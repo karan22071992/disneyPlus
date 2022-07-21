@@ -1,5 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+
 
 
 function Movies() {
@@ -8,28 +10,44 @@ function Movies() {
       <h4>Recommended for You</h4>
       <Content>
         <Wrap>
-          <img src='https://www.hollywoodreporter.com/wp-content/uploads/2018/09/simpsons_header-h_2018.jpg?w=1024' alt='' />
+        <Link to="/detail">
+        <img src='https://www.hollywoodreporter.com/wp-content/uploads/2018/09/simpsons_header-h_2018.jpg?w=1024' alt='' />
+        </Link>
         </Wrap>
         <Wrap>
-          <img src='https://www.hollywoodreporter.com/wp-content/uploads/2018/09/simpsons_header-h_2018.jpg?w=1024' alt='' />
+        <Link to={`/detail`}>
+        <img src='https://www.hollywoodreporter.com/wp-content/uploads/2018/09/simpsons_header-h_2018.jpg?w=1024' alt='' />
+        </Link>
         </Wrap>
         <Wrap>
-          <img src='https://www.hollywoodreporter.com/wp-content/uploads/2018/09/simpsons_header-h_2018.jpg?w=1024' alt='' />
+        <Link to={`/detail`}>
+        <img src='https://www.hollywoodreporter.com/wp-content/uploads/2018/09/simpsons_header-h_2018.jpg?w=1024' alt='' />
+        </Link>
         </Wrap>
         <Wrap>
-          <img src='https://www.hollywoodreporter.com/wp-content/uploads/2018/09/simpsons_header-h_2018.jpg?w=1024' alt='' />
+        <Link to={`/detail`}>
+        <img src='https://www.hollywoodreporter.com/wp-content/uploads/2018/09/simpsons_header-h_2018.jpg?w=1024' alt='' />
+        </Link>
         </Wrap>
         <Wrap>
-          <img src='https://www.hollywoodreporter.com/wp-content/uploads/2018/09/simpsons_header-h_2018.jpg?w=1024' alt='' />
+        <Link to={`/detail`}>
+        <img src='https://www.hollywoodreporter.com/wp-content/uploads/2018/09/simpsons_header-h_2018.jpg?w=1024' alt='' />
+        </Link>
         </Wrap>
         <Wrap>
-          <img src='https://www.hollywoodreporter.com/wp-content/uploads/2018/09/simpsons_header-h_2018.jpg?w=1024' alt='' />
+        <Link to={`/detail`}>
+        <img src='https://www.hollywoodreporter.com/wp-content/uploads/2018/09/simpsons_header-h_2018.jpg?w=1024' alt='' />
+        </Link>
         </Wrap>
         <Wrap>
-          <img src='https://www.hollywoodreporter.com/wp-content/uploads/2018/09/simpsons_header-h_2018.jpg?w=1024' alt='' />
+        <Link to={`/detail`}>
+        <img src='https://www.hollywoodreporter.com/wp-content/uploads/2018/09/simpsons_header-h_2018.jpg?w=1024' alt='' />
+        </Link>
         </Wrap>
         <Wrap>
-          <img src='https://www.hollywoodreporter.com/wp-content/uploads/2018/09/simpsons_header-h_2018.jpg?w=1024' alt='' />
+        <Link to={`/detail`}>
+        <img src='https://www.hollywoodreporter.com/wp-content/uploads/2018/09/simpsons_header-h_2018.jpg?w=1024' alt='' />
+        </Link>
         </Wrap>
       </Content>
       

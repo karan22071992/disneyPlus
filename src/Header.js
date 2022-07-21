@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 function Header() {
@@ -32,7 +33,9 @@ function Header() {
          </a>
 
        </NavMenu>
+       <Link to="/login">
        <UserImg src="https://images.pexels.com/photos/7422160/pexels-photo-7422160.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+       </Link>
     </Nav>
   )
 }
